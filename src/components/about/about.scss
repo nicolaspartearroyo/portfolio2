@@ -1,0 +1,58 @@
+.about {
+  background-color: black;
+  display:flex;
+
+  .left{
+    flex: 0.5;
+    background-color: #e5d600;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .right{
+    flex: 0.5;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .hello{
+    font-size: 14vw;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .world{
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 3vw;
+  }
+
+  .happyface{
+    font-size: 7vw;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 6vw;
+    margin-right: 3vw;
+
+  }
+
+  .about-titel{
+  color: #e5d600;
+  font-size: 2.3vw;
+  font-weight: bold;
+  margin-left: 4vw;
+  
+  }
+
+  .info{
+    margin-top: 3vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    color: white;
+    font-size: 1.4vw;
+   
+  }
+}

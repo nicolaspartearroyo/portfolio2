@@ -1,0 +1,94 @@
+.contact {
+  background-color: #e5d600;
+  display: flex;  
+
+  h1 {
+    font-size: 15vw;
+    margin-left: 6vw;
+    margin-top: 2vw; 
+    overflow: hidden;
+    position: absolute;
+  }
+
+  img{
+    margin: 10px;
+    width: 60px;;
+    height: 60px;
+
+  }
+
+  .left {
+    margin-top: 32vh;
+    margin-left: 15vw;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  }
+
+  form{
+    margin-top: 10vh;
+    width: 500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    
+
+    input{
+      width: 500px;
+      height: 50px;
+      font-size: 14px;
+      margin-top: 10px;
+      color: #e5d600;
+      background-color: black;
+      border: none;
+    }
+
+    textarea{
+      margin-top: 10px;
+      width: 500px;
+      height: 200px;
+      font-size: 14px;
+      color: #e5d600;
+      background-color: black;
+      border: none;
+
+    }
+    button{
+      margin-top: 10px;
+      overflow: hidden;
+      width: 200px;
+      height: 30px;
+      color: black;
+      font-weight: bold;
+      background-color: #e5d600;
+      border: 1px solid black;
+      cursor: pointer;
+
+      &:focus{
+        outline: none;
+      }
+    }
+    span{
+      margin-top: 10px;
+      color: green;
+      font-weight: bold;
+      font-size: 30px;
+    }
+  } 
+}
+
+
+
+
