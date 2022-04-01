@@ -2,7 +2,9 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Work from "./components/work/Work";
-import Contact from "./components/contact/Contact";
+// import Contact from "./components/contact/Contact";
+import ContactForm from "./components/contact/ContactForm";
+
 import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
@@ -17,7 +19,7 @@ function App() {
         <Home />
         <About />
         <Work />
-        <Contact />
+        <ContactForm />
       </div>
     </div >
   );
