@@ -3,7 +3,6 @@ import "./navbar.scss";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
   return <div className={'navbar ' + (menuOpen && "active")}>
-    <div className='blur'></div>
     <div className="wrapper">
       <div className="right">
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
@@ -13,5 +12,5 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         </div>
       </div>
     </div>
-  </div>;
+  </div >;
 }

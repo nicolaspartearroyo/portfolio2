@@ -19,7 +19,7 @@ function App() {
         <Work />
         <Contact />
       </div>
-    </div>
+    </div >
   );
 }
 
