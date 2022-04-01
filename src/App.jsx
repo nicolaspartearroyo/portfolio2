@@ -2,7 +2,6 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Work from "./components/work/Work";
-// import Contact from "./components/contact/Contact";
 import ContactForm from "./components/contact/ContactForm";
 
 import "./app.scss";
