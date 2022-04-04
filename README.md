@@ -20,5 +20,5 @@ Put on server.js file your email address and password on lines 16/17 and save it
 
 ### Preview
 
-![plot](./public/assets/preview1.jpg)
+![plot](./public/assets/preview1.png)
 
