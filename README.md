@@ -18,3 +18,7 @@ You may also see any lint errors in the console.
 
 Put on server.js file your email address and password on lines 16/17 and save it before you launch node server.js (be sure to be on ./src folder.\
 
+### Preview
+
+![plot](./public/assets/preview1.jpg)
+
