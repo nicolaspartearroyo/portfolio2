@@ -91,3 +91,22 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    .left {
+      margin-left: 0;
+      margin-top: 20vh;
+    }
+
+    .right {
+      display: block;
+    }
+
+    .form {
+      display: block;
+
+    }
+  }
+}
