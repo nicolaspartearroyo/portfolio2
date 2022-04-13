@@ -1,11 +1,12 @@
 .work {
-  background-color: #e5d600;;
+  background-color: #e5d600;
+  ;
 }
 
 h1 {
   font-size: 15vw;
   margin-left: 6vw;
-  margin-top: 2vw; 
+  margin-top: 2vw;
 }
 
 
@@ -17,9 +18,10 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
 
- 
+
   h3 {
-    color: #e5d600;;
+    color: #e5d600;
+    ;
     text-align: end;
     font-size: 30px;
     font-weight: bold;
@@ -27,38 +29,39 @@ h1 {
 
   }
 
-  .item{
+  .item {
     width: 200px;
     height: 200px;
     border: 1px solid black;
     background-color: black;
     margin: 30px;
 
-    .text-box{ 
+    .text-box {
       display: none;
-      margin: 10px;    
+      margin: 10px;
     }
 
     a {
       text-decoration: none;
-      color:#e5d600;;
+      color: #e5d600;
+      ;
       font-weight: bold;
 
     }
 
-    span{
+    span {
       color: white;
       font-size: 9px;
     }
 
     &:hover {
-    .text-box{
-      display: block;
-    }
+      .text-box {
+        display: block;
+      }
 
-    h3{
-      display: none;
-    }
+      h3 {
+        display: none;
+      }
     }
   }
 }
