@@ -20,7 +20,7 @@
 
   .left {
     margin-top: 32vh;
-    margin-left: 15vw;
+    margin-left: 6vw;
     display: flex;
     overflow: hidden;
     flex-direction: column;
@@ -34,12 +34,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-right: 20px;
+
   }
 
   form {
-    margin-top: 10vh;
+    margin-top: 15vh;
     width: 500px;
-    height: 800px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -93,20 +95,22 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .contact {
+
     .left {
-      margin-left: 0;
+      margin-left: 10px;
       margin-top: 20vh;
     }
 
     .right {
       display: block;
+      margin: 40px;
     }
 
     .form {
-      display: block;
-
+      position: fixed;
+      overflow: hidden;
     }
   }
 }
