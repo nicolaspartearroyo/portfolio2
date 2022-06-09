@@ -9,14 +9,14 @@ export default function Work() {
         <h3>MYFLIX API</h3>
         <div className='text-box'>
           <a href='https://github.com/nicolaspartearroyo/myFlix-API'>GITHUB {'>'} CODE</a><br></br>
-          <span>I built the server-side component of a “movies” web application (myFlix). <br></br>The web application provide users with access to information about different movies, directors, and genres.<br></br>Users can sign up, update their personal information, and create a list of their favorite movies.</span>
+          <span>Built the server-side (REST API and database) and client-side of a movie collection web application which provide access to information about different movies, directors, and genres for users to be able to sign up, update their personal information, and create a list of their favourite movies.</span>
         </div>
       </div>
       <div className="item">
         <h3>MYFLIX REACT CLIENT</h3>
         <div className='text-box'>
           <a href='https://github.com/nicolaspartearroyo/myFlix-React-client'>GITHUB {'>'} CODE</a><br></br>
-          <span>Using React, I built the client-side for an application called myFlix built with the MERN stack and its own API.<br></br>This web app provides users with information about movies, directors and genres. Users are able to sign up, update personal information and select their favorites movies.</span>
+          <span>Using React and redux, I built the client-side for an application called myFlix built with the MERN stack.<br></br>This web app provides users with information about movies, directors and genres. Users are able to sign up, update personal information and select their favorites movies.</span>
         </div>
       </div>
       <div className="item">
@@ -34,10 +34,11 @@ export default function Work() {
         </div>
       </div>
       <div className="item">
-        <h3>TO DO LIST APP</h3>
+        <h3>CHATT APPP</h3>
         <div className='text-box'>
-          <a href='https://github.com/nicolaspartearroyo/to-do-list-app'>GITHUB {'>'} CODE</a><br></br>
-          <span>This is a short mini-project in which I will be implementing jQuery to build a basic To-Do List app.</span>
+          <a href='https://github.com/nicolaspartearroyo/Chat-app'>GITHUB {'>'} CODE</a><br></br>
+          <span>A chat app for mobile devices using React Native. Wrote code that connects to the chat server, sends and receives messages, and displays them in the app. The app provide users with a chat interface and options to share images and their location.
+          </span>
         </div>
       </div>
       <div className="item">
