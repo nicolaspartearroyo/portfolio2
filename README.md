@@ -4,7 +4,7 @@ I built this project using React, node.js, express.js, nodemailer, scss, github 
 
 ## Website
 
-<a>nicolaspartearroyo.netlify.app/</a>
+http://nicolaspartearroyo.netlify.app/
 
 ### `npm start`
 
