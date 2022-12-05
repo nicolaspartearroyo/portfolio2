@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I built this project using React, node.js, express.js, nodemailer, scss, github and netifly.
 
-## Available Scripts
+## Website
 
-In the project directory, you can run:
+<a>nicolaspartearroyo.netlify.app/</a>
 
 ### `npm start`
 
